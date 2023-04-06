@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    color: #3A98B9;
+}
+
+#header-container {
+    padding-top: 50px;
+}
+
+#content-container {
+    
+}
+
+#footer-container {
+    background-color: #DAF5FF!important;
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+
+.title {
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 64px;
+    color: firebrick;
+}
+
+.subtitle {
+    font-size: 48px;
+    font-family: 'Sacramento', cursive;
+    color: #3A98B9;
+}
+
+h3 {
+    color: firebrick;
+    font-size: 24px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.year-2001 {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.img_2001 {
+    width: 150px;
+    float: left;
+    margin-right: 25px;
+}
+
+.year-2005 {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.img_2005 {
+    width: 150px;
+    float: right;
+    margin-right: 25px;
+}
+
+.year-2007 {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.img_2007 {
+    width: 150px;
+    float: left;
+    margin-right: 25px;
+}
+
+.year-2017 {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.img_2017 {
+    width: 150px;
+    float: right;
+    margin-right: 25px;
+}
+
+.year-2022 {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.img_2022 {
+    width: 150px;
+    float: left;
+    margin-right: 25px;
+}
+
+.year-2023 {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.img_2023 {
+    width: 150px;
+    float: right;
+    margin-right: 25px;
+}
+
+.contact_me {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.img_contact_me {
+    width: 150px;
+    float: left;
+    margin-right: 25px;
+}
+
+a:link {
+    color: #3A98B9;
+}
+
+a:visited {
+    color: #3A98B9;
+}
+
+a:hover {
+    color: firebrick;
+}
+
+.summary {
+    font-size: 24px;
+    color: firebrick;
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+details>ul {
+    color: #3A98B9;
+    font-size: 16px;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+.footer-container-link {
+    margin:0 20px;
+    text-decoration: none;
+}
