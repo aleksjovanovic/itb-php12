@@ -1,7 +1,12 @@
 * {
+    /* outline:dotted 1px red; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,11 +18,12 @@ body {
 
 #header-container {
     padding-top: 50px;
+    background-color: #DAF5FF!important;
 }
 
-#content-container {
-    
-}
+/* #content-container {
+
+} */
 
 #footer-container {
     background-color: #DAF5FF!important;
@@ -36,6 +42,7 @@ body {
     font-size: 48px;
     font-family: 'Sacramento', cursive;
     color: #3A98B9;
+    padding-bottom: 20px;
 }
 
 h3 {
@@ -43,13 +50,20 @@ h3 {
     font-size: 24px;
 }
 
+hr {
+    border:0;
+    border-bottom: dotted 7px lightgrey;
+    width: 4%;
+    margin: auto;
+}
+
 img {
     border-radius: 50%;
 }
 
 .year-2001 {
-    width: 50%;
-    margin: 100px auto 100px;
+    width: 60%;
+    margin: 50px auto;
     text-align: left;
     line-height: 2;
 }
@@ -61,8 +75,8 @@ img {
 }
 
 .year-2005 {
-    width: 50%;
-    margin: 100px auto 100px;
+    width: 60%;
+    margin: 50px auto;
     text-align: left;
     line-height: 2;
 }
@@ -74,8 +88,8 @@ img {
 }
 
 .year-2007 {
-    width: 50%;
-    margin: 100px auto 100px;
+    width: 60%;
+    margin: 50px auto;
     text-align: left;
     line-height: 2;
 }
@@ -87,8 +101,8 @@ img {
 }
 
 .year-2017 {
-    width: 50%;
-    margin: 100px auto 100px;
+    width: 60%;
+    margin: 50px auto;
     text-align: left;
     line-height: 2;
 }
@@ -100,8 +114,8 @@ img {
 }
 
 .year-2022 {
-    width: 50%;
-    margin: 100px auto 100px;
+    width: 60%;
+    margin: 50px auto;
     text-align: left;
     line-height: 2;
 }
@@ -113,8 +127,8 @@ img {
 }
 
 .year-2023 {
-    width: 50%;
-    margin: 100px auto 100px;
+    width: 60%;
+    margin: 50px auto;
     text-align: left;
     line-height: 2;
 }
@@ -126,8 +140,8 @@ img {
 }
 
 .contact_me {
-    width: 50%;
-    margin: 100px auto 100px;
+    width: 60%;
+    margin: 50px auto;
     text-align: left;
     line-height: 2;
 }
@@ -150,11 +164,17 @@ a:hover {
     color: firebrick;
 }
 
+/* Kursor generisan na https://www.emojicursor.app/ */
+.emoji:hover {
+    color: firebrick;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='38' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>👨‍💻</text></svg>") 16 0,auto;
+}
+
 .summary {
     font-size: 24px;
     color: firebrick;
-    width: 50%;
-    margin:100px auto 100px auto;
+    width: 60%;
+    margin: 50px auto;
     text-align: left;
     line-height: 2;
 }
